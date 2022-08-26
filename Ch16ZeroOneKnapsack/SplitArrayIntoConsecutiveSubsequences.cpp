@@ -14,7 +14,7 @@ public:
         }
         for (auto x : nums) {
             if (left[x] == 0) continue;
-            left[x]--;
+            left[x]--;  
             if (end[x-1] > 0) {
                 end[x-1]--;
                 end[x]++;
